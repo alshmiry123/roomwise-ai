@@ -32,7 +32,7 @@ const env = {
   appSlug: "roomwise-ai",
   // S3 URL of the app logo - set this to the URL returned by generate_image when creating custom logo
   // Leave empty to use the default icon from assets/images/icon.png
-  logoUrl: "",
+  logoUrl: "/manus-storage/roomwise-ai-icon_d1ed5a56.png",
   scheme: schemeFromBundleId,
   iosBundleId: bundleId,
   androidPackage: bundleId,
@@ -86,6 +86,13 @@ const config: ExpoConfig = {
   },
   plugins: [
     "expo-router",
+    [
+      "expo-image-picker",
+      {
+        photosPermission: "Allow Roomwise to access photos so you can choose a room image.",
+        cameraPermission: "Allow Roomwise to use the camera to capture your room.",
+      },
+    ],
     [
       "expo-audio",
       {
