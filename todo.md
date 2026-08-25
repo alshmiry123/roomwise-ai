@@ -18,3 +18,9 @@
 - [x] Run typecheck, lint, and tests
 - [x] Verify key screens in the mobile preview at portrait sizes
 - [ ] Save final checkpoint and deliver the project
+
+- [x] Prepare a static web export compatible with GitHub Pages
+- [ ] Create or update the GitHub repository for Roomwise AI
+- [ ] Publish the web build and GitHub Pages workflow
+- [ ] Verify the repository and deployed GitHub Pages URL
+- [x] Publish to a new public `alshmiry123/roomwise-ai` repository with GitHub Pages
